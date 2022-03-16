@@ -1,16 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+}
 header{
     position: fixed;
     display: flex; 
-    justify-content: space-around;  
+    justify-content: space-between;  
     align-items: center; 
     width: 100%;
-    height: 20%;
+    height: 5rem;
     background-color: rgba(255, 255, 255, 0.726);
+    top: 0;
+    left:50%;
+    transform: translate(-50%,0);
+    z-index: 1;
 }
 .logo_vaccination{
-    color: rgb(74, 14, 238);
-    font-weight: 600;
-    font-size: x-large;
+    color: rgb(67, 18, 204);
+    font-weight: 700;
+    font-size: 1.8rem;
+    padding-left: 4rem;
 }
-.nar_var{
+.nav_list{
+    list-style: none;
+    margin-right: 1.5rem;
+}
+.nav_list_item{
+    display: inline-block;
+    margin: auto 0.4rem;
+}
+.nav_list_item > a{
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(104, 104, 101);
+}
+.nav_list_item > button{
+    background-color: rgb(67, 18, 204);
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 5px;
+}
+.main_section{
+    display: inline-flex;
+    width: 100%;
+    height: 45rem;
+}
+.info_div{
+    width: 50%;
+}
+.image_div{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background:linear-gradient(20deg,#5ca1f0,#0b4383);
+    background-size: cover;
+}
+.image_context{
+    position: absolute;
+    right: -50px;
+    bottom: 0;
+    width: 100%;
+}
+.title{
+    margin: 3rem;
+    padding-top: 4rem;
+    color: #3267a3;
+    font-weight: bolder;
+    font-size: 2.8rem;
+}
+.paragraph{
+    margin: 3rem;
+    padding-right: 2rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: rgb(104, 104, 101);
+    width: 60%;
+}
+.item_div{
+    width: 100%;
+    display: flex;
+    align-content: center;    
+}
+.item{
+    padding-left: 2.5rem;
+    padding-right: 0.5rem;
 }
