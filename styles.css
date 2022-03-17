@@ -50,7 +50,7 @@ header{
 .main_section{
     display: inline-flex;
     width: 100%;
-    height: 45rem;
+    height: 50rem;
 }
 .info_div{
     width: 50%;
@@ -77,6 +77,13 @@ header{
     color: #3267a3;
     font-weight: 700;
     font-size: 3.5rem;
+}
+.title2{
+    padding-top: 3rem;
+    padding-left: 2rem;
+    color: #3267a3;
+    font-weight: 700;
+    font-size: 2.5rem;
 }
 .paragraph{
     padding-left: 2rem;
@@ -154,8 +161,28 @@ header{
     display: block;
 }
 .why_vaccine{
+    position: absolute;
     height: 80rem;
     width: 100%;
-    background-color: #0b4383;
+    margin: 3rem;
+}
+.vaccine_logos{
+    display: flex;
+    justify-content: space-between;
+}
+figure{
+    opacity: 40%;
+}
+.middle{
+    width: 45%;
+}
+.benefits{
+    display: flex;
+    justify-content: center;
+}
+.benefit{
+    box-shadow: 0px 1rem 1.5rem #5f60618e;
+    margin: 1rem;
+    padding: 1rem;
 }
 
